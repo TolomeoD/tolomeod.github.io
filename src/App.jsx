@@ -1,6 +1,7 @@
+import { useState } from 'react'
 import './App.css'
 import { ProjectCard } from './components/ProjectCard.jsx'
-import { projects } from './data/projects.js'
+import { sections } from './data/projects.js'
 
 const socialLinks = [
   {
@@ -45,7 +46,13 @@ const socialLinks = [
   },
 ]
 
+const resumeHref = '/resume.pdf'
+
 function App() {
+  const [activeSection, setActiveSection] = useState('projects')
+  const visibleProjects = sections[activeSection] ?? []
+  const sectionLabel = activeSection === 'projects' ? 'Projects' : 'Games'
+
   return (
     <div className="page">
       <header className="hero" aria-labelledby="site-title">
@@ -67,16 +74,42 @@ function App() {
             ))}
           </ul>
         </nav>
+        <nav className="hero-sections" aria-label="Portfolio sections">
+          <ul className="hero-tabs">
+            <li>
+              <button
+                type="button"
+                className={`hero-tab${activeSection === 'projects' ? ' is-active' : ''}`}
+                onClick={() => setActiveSection('projects')}
+                aria-pressed={activeSection === 'projects'}
+              >
+                Projects
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                className={`hero-tab${activeSection === 'games' ? ' is-active' : ''}`}
+                onClick={() => setActiveSection('games')}
+                aria-pressed={activeSection === 'games'}
+              >
+                Games
+              </button>
+            </li>
+            <li>
+              <a className="hero-tab hero-tab-link" href={resumeHref} target="_blank" rel="noreferrer">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <main>
-        <section className="projects" aria-labelledby="projects-heading">
-          <div className="section-header">
-            <h2 id="projects-heading">Selected Projects</h2>
-            <p>Highlighted builds spanning product platforms, production deployments, and game jam entries.</p>
-          </div>
+        <section className="projects" aria-label={`${sectionLabel} gallery`}>
+          <h2 className="visually-hidden">{sectionLabel}</h2>
           <div className="projects-grid">
-            {projects.map((project) => (
+            {visibleProjects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>
