@@ -1,0 +1,37 @@
+:root {
+  color: #f8f8f2;
+  background-color: #272822;
+  background-image: radial-gradient(circle at 15% 20%, rgba(166, 226, 46, 0.08), rgba(39, 40, 34, 0.95));
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  caret-color: #f92672;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}

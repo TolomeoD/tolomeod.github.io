@@ -1,0 +1,20 @@
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162c51" />
+      <stop offset="100%" stop-color="#3c8dca" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" rx="24" fill="url(#bg)" />
+  <g fill="#e2f5ff" opacity="0.9">
+    <rect x="110" y="110" width="580" height="320" rx="22" fill="#10213f" opacity="0.45" />
+    <rect x="150" y="150" width="220" height="220" rx="18" fill="#254b77" />
+    <rect x="410" y="150" width="220" height="80" rx="14" fill="#1c3d63" />
+    <rect x="410" y="250" width="220" height="40" rx="12" fill="#1c3d63" />
+    <rect x="410" y="310" width="220" height="40" rx="12" fill="#1c3d63" />
+    <path d="M180 182h160" stroke="#7dd3fc" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+    <circle cx="210" cy="240" r="38" fill="#7dd3fc" opacity="0.9" />
+    <path d="M200 230l16 16-16 16" stroke="#0b1e33" stroke-width="9" fill="none" stroke-linecap="round" />
+  </g>
+  <text x="80" y="80" fill="#ffffff" font-family="'Segoe UI', Arial" font-size="40" font-weight="600">Project Atlas · Collaboration</text>
+</svg>

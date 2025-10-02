@@ -1,0 +1,20 @@
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12324d" />
+      <stop offset="100%" stop-color="#2fb6a6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" rx="24" fill="url(#bg)" />
+  <g transform="translate(160 80)" fill="#e9fbff" opacity="0.9">
+    <rect x="0" y="0" width="180" height="360" rx="28" fill="#1c415f" />
+    <rect x="220" y="40" width="300" height="40" rx="12" fill="#15556b" />
+    <rect x="220" y="110" width="300" height="90" rx="16" fill="#15556b" />
+    <rect x="220" y="220" width="300" height="50" rx="16" fill="#15556b" />
+    <rect x="220" y="290" width="220" height="40" rx="16" fill="#15556b" />
+    <circle cx="90" cy="80" r="52" fill="#3ed2bf" opacity="0.9" />
+    <rect x="40" y="160" width="100" height="12" rx="6" fill="#bff7f0" />
+    <rect x="40" y="190" width="100" height="12" rx="6" fill="#bff7f0" opacity="0.7" />
+  </g>
+  <text x="80" y="80" fill="#ffffff" font-family="'Segoe UI', Arial" font-size="40" font-weight="600">Project Atlas · Mobile</text>
+</svg>

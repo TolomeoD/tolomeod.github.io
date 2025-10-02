@@ -1,0 +1,29 @@
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15222f" />
+      <stop offset="100%" stop-color="#256f6f" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" rx="24" fill="url(#bg)" />
+  <g opacity="0.92">
+    <rect x="110" y="120" width="580" height="320" rx="28" fill="#102028" />
+    <rect x="150" y="160" width="500" height="60" rx="18" fill="#1f3f46" />
+    <rect x="150" y="240" width="500" height="60" rx="18" fill="#1f3f46" />
+    <rect x="150" y="320" width="500" height="60" rx="18" fill="#1f3f46" />
+    <g fill="#32c8be">
+      <circle cx="190" cy="190" r="14" />
+      <circle cx="190" cy="270" r="14" />
+      <circle cx="190" cy="350" r="14" />
+    </g>
+    <g fill="#c2f5f1">
+      <rect x="220" y="180" width="180" height="12" rx="6" />
+      <rect x="220" y="200" width="140" height="12" rx="6" opacity="0.7" />
+      <rect x="220" y="260" width="200" height="12" rx="6" />
+      <rect x="220" y="280" width="160" height="12" rx="6" opacity="0.7" />
+      <rect x="220" y="340" width="220" height="12" rx="6" />
+      <rect x="220" y="360" width="180" height="12" rx="6" opacity="0.7" />
+    </g>
+  </g>
+  <text x="80" y="80" fill="#ffffff" font-family="'Segoe UI', Arial" font-size="40" font-weight="600">Open Source Starter Kit · Automations</text>
+</svg>

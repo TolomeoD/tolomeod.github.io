@@ -1,0 +1,22 @@
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1b29" />
+      <stop offset="100%" stop-color="#433d7b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" rx="24" fill="url(#bg)" />
+  <g opacity="0.9">
+    <rect x="80" y="120" width="640" height="320" rx="24" fill="#25213c" />
+    <rect x="120" y="160" width="260" height="200" rx="18" fill="#362b58" />
+    <rect x="420" y="160" width="240" height="80" rx="16" fill="#362b58" />
+    <rect x="420" y="260" width="240" height="80" rx="16" fill="#362b58" />
+    <path d="M140 300c40-60 80-90 120-60s80 20 120-40" stroke="#9f7aea" stroke-width="8" fill="none" stroke-linecap="round" />
+    <g fill="#e9d8fd">
+      <rect x="440" y="180" width="60" height="12" rx="6" />
+      <rect x="440" y="280" width="120" height="12" rx="6" />
+      <rect x="440" y="310" width="80" height="12" rx="6" />
+    </g>
+  </g>
+  <text x="80" y="80" fill="#fff" font-family="'Segoe UI', Arial" font-size="40" font-weight="600">Developer Insights · Velocity</text>
+</svg>

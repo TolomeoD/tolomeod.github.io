@@ -1,0 +1,26 @@
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1f3b" />
+      <stop offset="100%" stop-color="#2d4f8c" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" rx="24" fill="url(#bg)" />
+  <g opacity="0.9">
+    <rect x="90" y="120" width="620" height="320" rx="24" fill="#11162d" />
+    <rect x="130" y="160" width="540" height="60" rx="16" fill="#1f2c52" />
+    <rect x="130" y="240" width="540" height="60" rx="16" fill="#1f2c52" />
+    <rect x="130" y="320" width="540" height="60" rx="16" fill="#1f2c52" />
+    <g fill="#8ab4ff">
+      <rect x="150" y="180" width="200" height="16" rx="8" />
+      <rect x="150" y="260" width="300" height="16" rx="8" />
+      <rect x="150" y="340" width="260" height="16" rx="8" />
+    </g>
+    <g fill="#4c9aff">
+      <rect x="380" y="180" width="160" height="12" rx="6" />
+      <rect x="500" y="260" width="120" height="12" rx="6" />
+      <rect x="440" y="340" width="180" height="12" rx="6" />
+    </g>
+  </g>
+  <text x="80" y="80" fill="#fff" font-family="'Segoe UI', Arial" font-size="40" font-weight="600">Developer Insights · Issue Drilldown</text>
+</svg>

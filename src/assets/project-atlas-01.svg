@@ -1,0 +1,17 @@
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f3b73" />
+      <stop offset="100%" stop-color="#4a90e2" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" rx="24" fill="url(#bg)" />
+  <g fill="#ffffff" opacity="0.85">
+    <rect x="80" y="120" width="640" height="320" rx="20" fill="#0f254b" opacity="0.38" />
+    <path d="M160 200h120v12H160zm0 40h200v12H160zm0 40h260v12H160z" opacity="0.7" />
+    <path d="M420 180c70 40 120 90 160 160" stroke="#7dd3fc" stroke-width="6" fill="none" stroke-linecap="round" />
+    <circle cx="420" cy="180" r="12" fill="#7dd3fc" />
+    <circle cx="580" cy="302" r="12" fill="#c4f1ff" />
+  </g>
+  <text x="80" y="80" fill="#ffffff" font-family="'Segoe UI', Arial" font-size="40" font-weight="600">Project Atlas · Analytics Overview</text>
+</svg>
