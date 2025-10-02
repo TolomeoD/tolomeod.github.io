@@ -17,7 +17,7 @@ const socialLinks = [
   {
     id: 'email',
     label: 'Email Dominick',
-    href: 'mailto:tolomeod@gmail.com',
+    href: 'mailto:tolomeodom@gmail.com',
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Zm2-.5a.5.5 0 0 0-.5.5v.32l7.2 5.4 7.8-5.52V5a.5.5 0 0 0-.5-.5H5Zm15 3.05-6.93 4.92a1.5 1.5 0 0 1-1.77 0L4 7.54V19a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5V7.55Z" />
