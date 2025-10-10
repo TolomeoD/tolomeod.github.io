@@ -1,9 +1,10 @@
 import { useState } from 'react'
 
-export function ProjectCard({ project }) {
+export function ProjectCard({ project, onNavigate }) {
   const { title, role, summary, tech = [], images = [], href } = project
   const [index, setIndex] = useState(0)
   const hasGallery = images.length > 1
+  const isInternalLink = typeof href === 'string' && href.startsWith('/')
 
   const showNext = (event) => {
     event.stopPropagation()
@@ -19,6 +20,16 @@ export function ProjectCard({ project }) {
 
   const handleCardClick = () => {
     if (!href) return
+
+    if (isInternalLink) {
+      if (onNavigate) {
+        onNavigate(href)
+      } else if (typeof window !== 'undefined') {
+        window.location.assign(href)
+      }
+      return
+    }
+
     if (typeof window !== 'undefined') {
       window.open(href, '_blank', 'noreferrer')
     }
@@ -28,6 +39,10 @@ export function ProjectCard({ project }) {
     if (!href) return
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault()
+      if (isInternalLink && onNavigate) {
+        onNavigate(href)
+        return
+      }
       handleCardClick()
     }
   }

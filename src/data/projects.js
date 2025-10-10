@@ -18,7 +18,8 @@ export const sections = {
       images: [
         { src: hammerspaceCover, alt: 'Hammerspace product interface preview' },
       ],
-      href: 'https://hammerspace.com',
+      href: '/projects/hammerspace',
+      externalHref: 'https://hammerspace.com',
     },
     {
       id: 'csc-global',
@@ -29,7 +30,8 @@ export const sections = {
       images: [
         { src: cscGlobalCover, alt: 'CSCGlobal site overview' },
       ],
-      href: 'https://www.cscdbs.com/en/domainsec/',
+      href: '/projects/csc-global',
+      externalHref: 'https://www.cscdbs.com/en/domainsec/',
     },
     {
       id: 'ai-psychology-tutor',
