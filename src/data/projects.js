@@ -6,6 +6,7 @@ import thievesAscentCover from '../assets/TheivesAscent.png'
 import transformation01 from '../assets/openframeworks1.png'
 import transformation02 from '../assets/openframeworks2.png'
 import wheresRobdoCover from '../assets/WheresRobdo.png'
+import whimsighoulCover from '../assets/Whimsighoul.png'
 
 export const sections = {
   projects: [
@@ -47,9 +48,20 @@ export const sections = {
   ],
   games: [
     {
+      id: 'whimsighoul',
+      title: "Whimsighoul",
+      role: 'Programmer/Designer',
+      summary: "Play as a poltergeist and keep a family scared as long as you can! Created as a submission for SCREAM JAM 2025.",
+      tech: ['Godot', 'GDScript'],
+      images: [
+        { src: whimsighoulCover, alt: "Whimsighoul title screenshot" },
+      ],
+      href: 'https://sploches.itch.io/whimsighoul',
+    },
+    {
       id: 'gamblin-gary',
       title: 'Gamblin Gary',
-      role: 'Developer',
+      role: 'Programmer/Designer',
       summary: 'A vampire survivors type game, where upgrades are obtained through gambling your money or life. Made for the Brackeys 2025 Game Jam. Theme: Risk It For The Biscuit!',
       tech: ['Godot', 'GDScript'],
       images: [
@@ -60,7 +72,7 @@ export const sections = {
     {
       id: 'thieves-ascent',
       title: 'Thieves Ascent',
-      role: 'Developer',
+      role: 'Programmer',
       summary: 'A 3D platformer that puts you in the shoes of a saboteur. Each item you steal effects the terrain differently. Made for the Godot Wild Jam #81. Theme: Expedition',
       tech: ['Godot', 'GDScript'],
       images: [
@@ -83,7 +95,7 @@ export const sections = {
     {
       id: 'wheres-robdo',
       title: "Where's Robdo?",
-      role: 'Developer/Designer',
+      role: 'Programmer/Designer',
       summary: "A web-based puzzle game where the player must find Robdos face in an image. Created as a part of Intro To Web Development at OSU",
       tech: ['HTLM', 'CSS', 'JS'],
       images: [
